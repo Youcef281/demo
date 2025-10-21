@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="pricingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c63ff" />
+      <stop offset="100%" stop-color="#ff6b6b" />
+    </linearGradient>
+    <linearGradient id="fadeTopPricing" x1="0" y1="0" x2="0" y2="20%">
+      <stop offset="0%" stop-color="#1a1c20" stop-opacity="1" />
+      <stop offset="100%" stop-color="#1a1c20" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="fadeBottomPricing" x1="0" y1="80%" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#1a1c20" stop-opacity="0" />
+      <stop offset="100%" stop-color="#1a1c20" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <path d="M0,200 C360,250 720,150 1440,300 L1440,0 L0,0 Z" fill="url(#pricingGradient)" opacity="0.05" />
+  <path d="M0,600 C400,650 1000,550 1440,700 L1440,900 L0,900 Z" fill="url(#pricingGradient)" opacity="0.08" />
+
+  <rect width="100%" height="100%" fill="url(#fadeTopPricing)" />
+  <rect width="100%" height="100%" fill="url(#fadeBottomPricing)" />
+</svg>

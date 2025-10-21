@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="fadeFeaturesGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <!-- Start bright at top -->
+      <stop offset="0%" stop-color="#6c63ff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#b6a9d9" stop-opacity="0.6" />
+      <!-- Fade smoothly to transparent -->
+      <stop offset="100%" stop-color="#1a1c20" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Smooth flowing wave -->
+  <path d="M0,160 C480,240 960,80 1440,160 L1440,320 L0,320 Z"
+        fill="url(#fadeFeaturesGradient)" />
+</svg>
