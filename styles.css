@@ -46,6 +46,9 @@ hr {
 /* ====== HERO ====== */
 
 .hero-section {
+  background: url('images/hero-bg.svg') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   padding: 100px 20px;
 }
@@ -114,9 +117,11 @@ hr {
 /* ====== About Us ====== */
 
 .about-us {
+  background: url('images/about-bg.svg') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   padding: 80px 20px;
-  background-color: var(--color-bg);
   color: var(--color-text);
 }
 
@@ -194,9 +199,12 @@ hr {
 
 /* ===== FEATURES SECTION ===== */
 .features-section {
+  background: url('images/features-bg.svg') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg);
   text-align: center;
   padding: 80px 20px;
-  background-color: var(--color-bg);
 }
 
 .features-section h2 {
@@ -249,6 +257,9 @@ hr {
 
 /* ===== PRICING SECTION ===== */
 .pricing-section {
+  background: url('images/pricing-bg.svg') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   padding: 80px 20px;
   background-color: var(--color-bg);
@@ -325,8 +336,10 @@ hr {
 
 /* ===== ORDER SECTION ===== */
 .order-section {
+  background: url('images/order-bg.svg') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
   padding: 80px 20px;
-  background-color: var(--color-bg);
   color: var(--color-text);
   text-align: center;
 }
